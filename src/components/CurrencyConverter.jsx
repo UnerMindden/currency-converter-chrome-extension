@@ -70,7 +70,7 @@ function CurrencyConverter(props) {
       
 
     return (
-        <div className="bg-[#8076a3] rounded m-20 p-5" id="parent">
+        <div className="bg-[#8076a3] rounded p-5" id="parent">
             <ConversionForm
                 amount={amount}
                 fromCurrency={fromCurrency}
